@@ -1,0 +1,79 @@
+body {
+    background:url("../img/conifer-daylight-evergreen-572937.jpg") center center fixed;
+    background-size: cover;
+    color: white;
+
+}
+
+
+.header {
+    text-align: center;
+    font-size: 7vw;
+    color: White;
+}
+
+#lap{
+   text-align: right;
+    font-size: 4vw;
+
+
+}
+#time{
+   text-align: center;
+    font-size: 4vw;
+
+
+}
+
+.control {
+    background-color: darkgoldenrod;
+    color: white;
+    text-align: center;
+    height:10vw;
+    width:10vw;
+    margin-left:300%;
+    border-radius: 100%;
+    padding: 20% 0;
+    margin-top:10px;
+
+}
+.control:hover{
+
+    cursor: pointer;
+    background: white;
+    color: darkgoldenrod;
+
+}
+
+#laps{
+    margin-top:13vw;
+    width:470px;
+
+    overflow-y:scroll;
+    display: inline;
+
+
+}
+
+.col-xs-offset-4{
+
+    margin-right: 5%;
+
+}
+.lap{
+   height:10vh;
+    color:white;
+    border: 1px solid white;
+
+
+}
+.title{
+    float: left;
+    font-size:4vw;
+}
+
+.lapM{
+    font-size:4vw;
+    float:right;
+
+}
